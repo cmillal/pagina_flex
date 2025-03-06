@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+  }
+
+  aside {
+    width: 250px;
+    min-height: 100vh;
+    border: 1px solid; 
+  }
+
+aside .maria-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    border: 1px solid;
+    
+}
+
+aside .maria-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+aside .maria-profile img {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    border-radius: 100px;
+
+}
+
