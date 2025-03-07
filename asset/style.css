@@ -37,4 +37,23 @@ aside .maria-profile img {
     border-radius: 100px;
 
 }
+.cajon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    border: 1px solid;
+}
 
+section .foto img {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    border-radius: 100px;
+    
+}
+
+.cajas {
+    padding: 12px 30px;
+    border: 1px solid;
+}
