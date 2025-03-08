@@ -57,3 +57,16 @@ section .foto img {
     padding: 12px 30px;
     border: 1px solid;
 }
+
+.contenedor_dos {
+    width: 200px; 
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .contenedor_dos img {
+        max-width: 150%; /* La imagen no puede ser más ancha que su contenedor */
+        max-height: 150%; /* La imagen no puede ser más alta que su contenedor */
+    }
