@@ -10,9 +10,10 @@
   }
 
   aside {
-    width: 250px;
+    width: 350px;
     min-height: 100vh;
-    border: 1px solid; 
+    border: 1px solid;
+    color: #e8ebe4; 
   }
 
 aside .maria-profile {
@@ -29,14 +30,21 @@ aside .maria-info {
     align-items: center;
     gap: 15px;
 }
+.maria-info i {
+    color: #bec1bb;
+}
 
 aside .maria-profile img {
     display: flex;
     align-items: center;
     width: 50px;
     border-radius: 100px;
-
 }
+
+ .datas {
+    color: #444749;
+   }
+
 .cajon {
     display: flex;
     align-items: center;
@@ -52,6 +60,12 @@ section .foto {
     gap: 10px;
 }
 
+.texto-caja {
+    color: 
+    #444749
+    ;
+}
+
 section .foto img {
             width: 50px;
     border-radius: 100px;
@@ -64,10 +78,17 @@ section .foto img {
     
 }
 
+.caja-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section .boton {
    padding: 10px 35px;
    background-color: #A491D2;
    border: none;
+   margin: 30px 0;
 }
 
 main {
