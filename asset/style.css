@@ -43,12 +43,17 @@ aside .maria-profile img {
     justify-content: space-between;
     padding: 12px 30px;
     border: 1px solid;
+   
+}
+
+section .foto {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 section .foto img {
-    display: flex;
-    align-items: center;
-    width: 50px;
+            width: 50px;
     border-radius: 100px;
     
 }
@@ -56,17 +61,30 @@ section .foto img {
 .cajas {
     padding: 12px 30px;
     border: 1px solid;
+    
 }
 
-.contenedor_dos {
-    width: 200px; 
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
+section .boton {
+   padding: 10px 35px;
+   background-color: #A491D2;
+   border: none;
+}
 
-    .contenedor_dos img {
-        max-width: 150%; /* La imagen no puede ser más ancha que su contenedor */
-        max-height: 150%; /* La imagen no puede ser más alta que su contenedor */
-    }
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.saludo {
+    width: 40%;
+    text-align: center;
+
+}
+.saludo img {
+    width: 70%;
+}
+
+
