@@ -30,13 +30,13 @@ aside .maria-info {
     align-items: center;
     gap: 15px;
 }
+
 .maria-info i {
     color: #bec1bb;
 }
 
 aside .maria-profile img {
-    display: flex;
-    align-items: center;
+    
     width: 50px;
     border-radius: 100px;
 }
@@ -58,12 +58,12 @@ section .foto {
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
 .texto-caja {
     color: 
-    #444749
-    ;
+    #444749;
 }
 
 section .foto img {
